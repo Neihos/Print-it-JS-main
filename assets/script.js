@@ -24,10 +24,20 @@ const arrowRight = document.querySelector(".arrow_right");
 
 // Ecoute des événements
 
-arrowLeft.addEventListener("click", () => {
-	console.log("vous avez cliquez à gauche");
+arrowRight.addEventListener("click", () => {
+	right()
 });
 
-arrowRight.addEventListener("click", () => {
-	console.log("vous avez cliquez à droite")
+arrowLeft.addEventListener("click", () => {
+	left()
 })
+
+// Déclarer les fonctions
+
+function right() {
+console.log('vous avez cliquez à droite')
+};
+
+function left() {
+	console.log('vous avez cliquez à gauche')
+};
