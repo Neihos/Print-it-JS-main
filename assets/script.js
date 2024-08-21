@@ -43,7 +43,6 @@ function right() {
   }
   displaySliderContent();
   updateActiveDot(); // Met à jour le dot actif
-  console.log(i);
 }
 
 function left() {
@@ -53,7 +52,6 @@ function left() {
   }
   displaySliderContent();
   updateActiveDot(); // Met à jour le dot actif
-  console.log(i);
 }
 
 function displaySliderContent() {
